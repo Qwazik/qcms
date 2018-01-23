@@ -1,0 +1,16 @@
+{
+    "name": "user/qcms",
+    "authors": [
+        {
+            "name": "Kovakin Alexey",
+            "email": "qwazik21@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Engine\\": "engine",
+            "Engine\\DI\\" : "engine/DI"
+        }
+    }
+}
