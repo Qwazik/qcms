@@ -13,6 +13,8 @@ class Cms
      */
     private $di;
 
+    public $db;
+
     /**
      * Cms constructor.
      * @param $di
@@ -25,12 +27,8 @@ class Cms
     /*
      * Run Cms
      */
-    /**
-     *
-     */
     public function run()
     {
-        $db = $this->di->get('test');
-        print_r($db);
+        print_r($this->di);
     }
 }
