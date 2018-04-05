@@ -49,6 +49,10 @@ class Router
 
     }
 
+    public function dispatch22($method, $uri){
+
+    }
+
     public function getDispatcher(){
         if($this->dispatcher == null){
 
