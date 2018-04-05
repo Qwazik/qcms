@@ -29,10 +29,6 @@ class Router
     {
         $this->host = $host;
     }
-    }
-    }
-    }
-    }
 
     /**
      * @param $key
