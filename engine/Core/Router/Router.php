@@ -29,10 +29,6 @@ class Router
     {
         $this->host = $host;
     }
-    }
-    }
-    }
-    }
 
     /**
      * @param $key
@@ -50,6 +46,10 @@ class Router
     }
 
     public function dispatch($method, $uri){
+
+    }
+
+    public function dispatch22($method, $uri){
 
     }
 
